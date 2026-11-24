@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.DS_Store
+.agents/
+.aws/
+.codex/
+
+# Local experiment artifacts.
+base_model*/
+checkpoints/
+logs/
+tf-logs/
+tmp/
+wandb/
+videos/
+runs/
+*.log
+*.out
+*.err
+events.out.tfevents.*
+active_iql_jax__*__agent/
+
+# Generated results are intentionally excluded from the code supplement.
+results/
+*.ckpt
+*.msgpack
+*.npz
+metrics.jsonl
+summary.csv
+
+*:Zone.Identifier
+
+*:Zone.Identifier

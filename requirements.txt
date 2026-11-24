@@ -1,0 +1,28 @@
+# Direct dependencies aligned with the paper's Python 3.9 environment.
+Cython==0.29.36
+absl-py==2.3.1
+distrax==0.1.5
+dm-control==1.0.14
+# D4RL source revision used in the experiments.
+d4rl @ git+https://github.com/rail-berkeley/d4rl@89141a689b0353b0dac3da5cba60da4b1b16254d
+flax==0.8.3
+gdown==5.2.0
+gym==0.23.1
+h5py==3.10.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+# JAX with CUDA 12 support.
+jax[cuda12]==0.4.30
+ml_collections==0.1.1
+mujoco==2.3.7
+mujoco-py==2.1.2.14
+numpy==1.26.4
+optax==0.2.2
+orbax-checkpoint==0.6.4
+pyrallis==0.3.1
+PyYAML==6.0.3
+scipy==1.13.1
+tensorboardX==2.6.4
+tensorflow-probability==0.23.0
+tqdm==4.67.1
+wandb==0.22.3

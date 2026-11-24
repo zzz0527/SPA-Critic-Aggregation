@@ -1,0 +1,6 @@
+expectile: 0.99
+temperature: 10.0
+num_ensemble: 6
+log_dir: tf-logs/benchmark/antmaze
+eval_episodes: 100
+eval_freq: 100000

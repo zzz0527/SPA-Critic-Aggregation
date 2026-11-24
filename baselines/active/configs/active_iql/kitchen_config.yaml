@@ -1,0 +1,6 @@
+expectile: 0.9
+temperature: 0.3
+dropout_rate: 0.1
+layer_norm: True
+num_ensemble: 5
+log_dir: tf-logs/benchmark/kitchen
